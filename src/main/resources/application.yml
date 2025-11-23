@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/e_commerce_backend?createDatabaseIfNotExist=true
+    username: root
+    password: { db_password }
+
+    jpa:
+      hibernate:
+        ddl-auto: update
